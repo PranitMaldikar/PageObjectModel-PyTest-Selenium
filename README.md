@@ -1,7 +1,7 @@
 # Portfolio Test Automator
 
 ## Project Overview
-The Portfolio Test Automator is designed to automate the testing of virtual stock trading functionalities on platforms like "Money Control". Using Pytest and the Page Object Model, this framework aims to ensure robust performance of trading platforms by automating tests for adding, managing, and selling stocks in a virtual portfolio.
+The Portfolio Test Automator is designed to automate the testing of virtual stock trading functionalities on platforms like *TBD. Using Pytest and the Page Object Model, this framework aims to ensure robust performance of trading platforms by automating tests for adding, managing, and selling stocks in a virtual portfolio.
 
 ### Problem Statement
 Develop a test automation framework using Pytest and the Page Object Model to validate functionalities of a virtual stock trading website. The tests should verify the following functionalities:
