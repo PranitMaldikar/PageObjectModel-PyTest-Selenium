@@ -21,33 +21,6 @@ Develop a test automation framework using Pytest and the Page Object Model to va
 3. **Test Portfolio Value Update**:
    - After the sale, check if the total value of the portfolio reflects the recent transaction.
    - Assert that the updated value is calculated correctly based on the sale.
-
-## Getting Started
-Here are some tips to help you get started with this testing framework:
-
-### Understand Pytest
-- Familiarize yourself with Pytest, focusing on fixtures for setup and teardown, parametrization, and using assertions to verify test outcomes.
-
-### Learn Page Object Model
-- Create separate classes for each page of the website, such as `LoginPage`, `PortfolioPage`, and `StockDetailPage`.
-- Each class should encapsulate all the functionalities (methods) and elements (attributes) of that particular page.
-
-### Implementing Wait and Assert
-- Use Selenium WebDriver's explicit and implicit wait functionalities to handle waiting for certain conditions.
-- Utilize Pytest assertions to check conditions like stock addition, stock removal, and portfolio updates.
-
-### Data Handling
-- Manage test data, potentially using fixtures to load and clean up data pre and post-tests.
-
-### Environment Setup
-- Set up a virtual environment for Python.
-- Install necessary packages like pytest, selenium, and any drivers you need for your browser.
-
-### Continuous Integration
-- Integrate the tests into a CI/CD pipeline to run them automatically.
-
-### Error Handling
-- Implement robust error handling and logging to manage and debug issues during test execution.
-
+     
 ## Conclusion
 The Portfolio Test Automator ensures that virtual trading platforms function as expected, making it a critical tool for maintaining the reliability and performance of financial software.
