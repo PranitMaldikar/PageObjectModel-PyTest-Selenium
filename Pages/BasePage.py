@@ -25,7 +25,7 @@ class BasePage:
         return element.text
 
     def is_visible(self, by_locator):
-        element = WebDriverWait(self.driver, 10).until(EC.visibility_of_all_elements_located(by_locator))
+        element = WebDriverWait(self.driver, 20).until(EC.visibility_of_all_elements_located(by_locator))
         return bool(element)
 
     def get_title(self, title):
